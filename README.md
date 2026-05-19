@@ -72,7 +72,7 @@ User clicks node → device detail panel slides in
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/netpulse.git
+git clone https://github.com/Vanisha-Sharma/netpulse.git
 cd netpulse
 ```
 
@@ -80,7 +80,7 @@ cd netpulse
 ```bash
 cd backend
 npm install
-cp .env.example .env
+cp .env
 npm run dev
 # Runs on http://localhost:3002
 ```
@@ -89,7 +89,7 @@ npm run dev
 ```bash
 cd ../frontend
 npm install
-cp .env.example .env
+cp .env
 npm run dev
 # Runs on http://localhost:5173
 ```
