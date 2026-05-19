@@ -100,12 +100,12 @@ npm run dev
 
 ### Frontend → Vercel
 - Root directory: `frontend`
-- Env var: `VITE_API_URL=https://your-backend.onrender.com`
+- Env var: `VITE_API_URL=https://netpulse-chd9.onrender.com`
 
 ### Backend → Render
 - Root directory: `backend`
 - Build: `npm install` · Start: `node server.js`
-- Env var: `FRONTEND_URL=https://your-app.vercel.app`
+- Env var: `FRONTEND_URL=https://net-pulse-smoky.vercel.app/`
 
 ---
 
