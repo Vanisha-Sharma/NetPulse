@@ -68,6 +68,34 @@ User clicks node → device detail panel slides in
 
 ---
 
+## Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/YOUR_USERNAME/netpulse.git
+cd netpulse
+```
+
+### 2. Backend
+```bash
+cd backend
+npm install
+cp .env.example .env
+npm run dev
+# Runs on http://localhost:3002
+```
+
+### 3. Frontend
+```bash
+cd ../frontend
+npm install
+cp .env.example .env
+npm run dev
+# Runs on http://localhost:5173
+```
+
+---
+
 ## Deployment
 
 ### Frontend → Vercel
